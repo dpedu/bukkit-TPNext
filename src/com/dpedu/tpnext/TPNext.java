@@ -8,10 +8,10 @@ import org.bukkit.plugin.java.JavaPlugin;
 import java.util.Vector;
 
 public class TPNext extends JavaPlugin {
-	// List of previous destination
-	Vector<TpRequest> lastTpByPlayer = new Vector<TpRequest>();
-	
-	// Handle /tpn or /tpnext. This command takes no arguments and has no options, so just do it.
+    // List of previous destination
+    Vector<TpRequest> lastTpByPlayer = new Vector<TpRequest>();
+    
+    // Handle /tpn or /tpnext. This command takes no arguments and has no options, so just do it.
     public boolean onCommand( CommandSender sender, Command command, String label, String args[] ) {
     	// Find the sender's last target
     	TpRequest lastQ = getTpRequestByHost(sender.getName());
