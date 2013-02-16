@@ -1,0 +1,19 @@
+#
+# TPNext
+# Teleports you to the next player
+#
+name: TPNext
+main: com.dpedu.tpnext.TPNext
+version: 0.1
+description: Teleports you to the next player.
+author: dpedu
+commands:
+  tpnext:
+    description: Teleports you to the next player
+    aliases: [tpn]
+    permission: tpnext.*
+    usage: /tpnext
+permissions:
+  tpnext.*:
+    description: Allows access to all TPNext commands.
+    default: op
