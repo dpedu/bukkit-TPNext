@@ -7,4 +7,6 @@ OPs get /tpnext (easier to use as /tpn)
 
 Other players might be able to use the command if given tpnext.*
 
-Test on Bukkit for 1.4.7. Probably works on anything since Bukkit for 1.0.
+Test on Bukkit for 1.4.7. Probably works on anything since Bukkit for 1.0..
+
+Pre-built JARs available on Bukkitdev: http://dev.bukkit.org/server-mods/tpnext/
