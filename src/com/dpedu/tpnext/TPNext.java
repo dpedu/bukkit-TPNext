@@ -26,7 +26,7 @@ public class TPNext extends JavaPlugin {
     	
     	// No target found
     	if(target.equals("")) {
-    		sender.sendMessage( "Couldn't find anyone :(" );
+    		sender.sendMessage( "Couldn't find anyone :( However, Savoie still loves you!" );
     		return true;
     	}
     	// Target found, teleport em
